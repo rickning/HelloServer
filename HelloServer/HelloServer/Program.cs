@@ -32,7 +32,7 @@ namespace HelloServer
 
 			Console.ReadLine ();
 
-			Console.WriteLine ("Hello World!");
+			Console.WriteLine ("Bye~");
 		}
 
 	
@@ -52,7 +52,7 @@ namespace HelloServer
 		     info.ReceiveArg = receciveArg;
 		     info.ServerSocket=server;
 
-		     byte[] sendbuffers=Encoding.ASCII.GetBytes("hello connector\n");
+		     byte[] sendbuffers=Encoding.ASCII.GetBytes("welcome\n");
 		     sendArg.SetBuffer(sendbuffers, 0, sendbuffers.Length);
 
 
